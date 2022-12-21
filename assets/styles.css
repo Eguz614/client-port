@@ -150,7 +150,7 @@ nav{
     border-radius: var(--B-RAD);
     padding: var(--PAD);
     align-items: center;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 #content2{
@@ -164,6 +164,7 @@ nav{
 .nested{
  display:grid;
  height:70vh;
+ 
  grid-template-columns: 1fr 1fr 1fr;
  grid-template-rows: .8fr .5fr;
  grid-gap: 10px;
@@ -173,23 +174,44 @@ nav{
 }
 
 #big{
-    background: #5cbbc1;
+    background:url(../assets/images/stonks.jpg);
+    background-size: cover;
+    border-radius: var(--B-RAD);
     grid-area: big;
+    border: 10px solid var(--Light);
+    
 }
 
+
+
+
+
+
 #small1{
-    background:#5cbbc1;
+    background:url(../assets/images/blue-keyboard.jpg);
+    background-size: cover;
+    border-radius: var(--B-RAD);
     grid-area: small1;
+    border: 10px solid var(--Light);
+   
 }
 
 #small2{
-    background:#5cbbc1;
+    background:url(../assets/images/angry-typing.jpg);
+    background-size: cover;
+    border-radius: var(--B-RAD);
     grid-area: small2;
+    border: 10px solid var(--Light);
+    
 }
 
 #small3{
-    background:#5cbbc1;
+    background:url(../assets/images/code.jpg);
+    background-size: cover;
+    border-radius: var(--B-RAD);
     grid-area: small3;
+    border: 10px solid var(--Light);
+   
 }
 
 
