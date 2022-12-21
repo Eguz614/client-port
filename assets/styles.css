@@ -283,7 +283,7 @@ footer{
 
 
 
-@media screen and (max-width:550px){
+@media screen and (max-width:850px){
     .container{
        grid-template-columns: 1fr; 
        grid-template-rows: .3fr .05fr .2fr .05fr .8fr .05fr .05fr ;
@@ -305,9 +305,19 @@ footer{
         "small2"
         "small3";
     }
+
+    #macro{
+        max-width: 30%;
+    }
+    #paint{
+        max-width: 30%;
+    }
+    #art{
+        max-width: 30%;
+    }
 }
 
-@media (max-width:550px){
+@media (max-width:650px){
     .toggle-button{
         display: flex;
     }
